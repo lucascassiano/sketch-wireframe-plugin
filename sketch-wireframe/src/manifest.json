@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "component",
+      "identifier": "sketch-wireframe.my-command-identifier",
+      "script": "./my-command.js"
+    },
+    {
+      "name": "button",
+      "identifier": "sketch-wireframe.button",
+      "script": "./button.js"
+    }
+  ],
+  "menu": {
+    "title": "sketch-wireframe",
+    "items": [
+      "sketch-wireframe.my-command-identifier",
+      "sketch-wireframe.button"
+    ]
+  }
+}
